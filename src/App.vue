@@ -1,6 +1,11 @@
 <template>
   <div id="app">
-
+    <Bio></Bio>
+    <Formation></Formation>
+    <Info></Info>
+    <ProXP></ProXP>
+    <Skill></Skill>
+    <div>{{resume}}</div>
   </div>
 </template>
 
@@ -10,6 +15,7 @@ import Formation from "@/components/Formation";
 import Info from "@/components/Info";
 import ProXP from "@/components/ProXP";
 import Skill from "@/components/Skill";
+import json from "./data.json";
 
 export default {
   name: 'App',
@@ -21,9 +27,12 @@ export default {
     Skill
 
   },
-  data() {
+  data(){
+    return{
 
-  },
+      resume: JSON.parse(json)
+    }
+  }
 }
 </script>
 
