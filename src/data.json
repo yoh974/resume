@@ -1,0 +1,34 @@
+{
+  "resume": {
+    "infos": {
+      "name": "SORNOM-AI",
+      "firstname": "Lionel",
+      "email": "sornom.lionel@gmail.com",
+      "picture_url" : "url"
+    },
+    "profesionnal_exp":
+      [
+        {
+          "id": 1,
+          "years": "2005-2007",
+          "description" : "short descript"
+        }
+      ],
+    "formations": [{
+      "id": 1,
+      "years": "2005-2007",
+      "description": "short description"
+    }],
+    "skills": [{
+      "id": 1,
+      "percent": 50,
+      "name": "PHP"
+    }],
+    "hobbies": [{
+      "id": 1,
+      "cat": "Sport",
+      "name": "Course à pied"
+    }],
+    "bio": "c'est moi"
+  }
+}
