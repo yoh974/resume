@@ -1,9 +1,14 @@
 <template>
-    <div></div>
+    <div>
+        <div>
+            {{bio}}
+        </div>
+    </div>
 </template>
 
 <script>
     export default {
+        props:['bio'],
         name: "Bio"
     }
 </script>
